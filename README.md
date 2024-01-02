@@ -44,7 +44,20 @@ Read about other command-line options with:
 ./fab-agon-emulator --help
 ```
 
-## Compiling for Windows
+## To build on macOS (Intel or Apple Silicon)
+
+First make sure [Rust](https://rustup.rs) is installed. In case it isn't, you can use [Homebrew](https://brew.sh):
+
+```
+brew install rust
+```
+
+Then proceed as in Linux:
+
+```
+git submodule update --init
+make
+```
 
 ### To build on Windows (mingw)
 
